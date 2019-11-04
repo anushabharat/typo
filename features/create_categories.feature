@@ -7,7 +7,7 @@ Feature: Create categories
     Given the blog is set up
     And I am logged into the admin panel
 
-  Scenario: Successfully create categories
+  Scenario: Successfully create and edit categories
     
     Given I am on the new categories page
     When I fill in "category_name" with "Foobar"
